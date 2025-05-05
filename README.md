@@ -1,6 +1,15 @@
 # MultiTierTopicAutoTune
 This repository implements a scalable, multi-tiered framework for automated parameter tuning of Latent Dirichlet Allocation (LDA) models on very large text corpora (tens of thousands of documents or more). It conducts three sequential rounds of topic extraction—each progressively refining topic granularity—while employing coherence-based grid search to identify optimal hyperparameters (number of topics, α, η) in the second and third rounds. Designed for efficiency and interpretability, the pipeline incorporates chunked training, document-level filtering, and comprehensive logging, enabling researchers to obtain robust topic hierarchies and quantitative estimates of topic prevalence in massive datasets.
 
+Authors:
+This framework was designed and developed by Qiu Shaochuan, Ding Yiyuan, and Jiang Yijie.
+
+Original Application:
+It was originally applied to analyze forum data from oral cancer patients, providing insights into patient concerns, treatment experiences, and community discussion patterns.
+
+Sample Data:
+Example datasets for demonstration (forum posts, thread titles, and replies) have been uploaded to this repository under the sample_data/ directory.
+
 Key Features
 Three-Stage Topic Extraction
 
